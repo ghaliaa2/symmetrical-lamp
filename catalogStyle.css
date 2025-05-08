@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan&display=swap');
+
+
+body {
+    font-family: 'Sedan', sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Adjusted to start from the top */
+    align-items: center;
+    margin: 0;
+  padding: 0;
+  font-family: 'Sedan', sans-serif;
+  background-color: #b6977d;
+
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Sedan', sans-serif;
+    background-color: #b6977d;
+    
+}
+  
+.catalog {
+    display: flex;
+    color: #664229;
+}
+  
+  .column {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .book {
+    border: 1px solid #E5D3B3;
+    padding: 20px;
+    text-align: center;
+    background-color:#b6977d;
+    margin-bottom: 20px;
+  }
+  
+  .book img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .book h2 {
+    margin-top: 10px;
+    font-size: 30px;
+  }
+  .book h5 {
+    margin-top: 10px;
+    font-size: 25px;
+  }
+  .book h6 {
+    margin-top: 10px;
+    font-size: 22px;
+  }
+  
+  .book p {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+
+
+
+/* Style the buttons */
+.month {
+    position: absolute;
+    top: 23px; /* Adjust this value to change the distance from the top */
+    left: 540px; /* Adjust this value to change the distance from the left */
+    z-index: 999;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    color: #664229;
+    background-color: #E5D3B3;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    
+}
+.home {
+    
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px;
+    color: #664229;
+    background-color: #E5D3B3;
+    text-decoration: none;
+    border-radius: 5px;/* Adjust as needed */
+    position: absolute;
+    top: 13px; /* Adjust this value to change the distance from the top */
+    right: 540px; /* Adjust this value to change the distance from the left */
+    z-index: 999;
+    font-size: 18px;
+    
+}
+.h1{
+    position: relative;
+    font-size: 200px;
+    text-align: center;
+    top: 160px;
+    color: #664229;
+}
+header {
+  color: #664229;
+    
+    padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  }
